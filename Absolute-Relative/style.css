@@ -1,0 +1,14 @@
+div {
+    width: 40%;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
