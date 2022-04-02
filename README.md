@@ -9,3 +9,5 @@ Kurs za vezbu: https://www.youtube.com/watch?v=Aj7HLsJenVg
 Zadaci za vezbu: https://www.hackerrank.com/
 
 Primeri za vezbu: https://tailblocks.cc/
+
+Igirca za flex: https://mastery.games/flexboxzombies/
