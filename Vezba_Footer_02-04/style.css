@@ -1,0 +1,30 @@
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    background-color:beige;
+}
+
+.child{
+    width: 20%;
+}
+
+.in{
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 55%;
+}
+
+.input-button{
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 35%;
+}
