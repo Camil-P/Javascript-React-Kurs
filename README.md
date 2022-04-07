@@ -13,6 +13,8 @@ Primeri za vezbu: https://tailblocks.cc/
 
 Igirca za flex: https://mastery.games/flexboxzombies/
 
-Implementacija ikonica: <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+Implementacija ikonica (unutar head tag-a): 
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+
 Ikonice: https://fonts.google.com/icons

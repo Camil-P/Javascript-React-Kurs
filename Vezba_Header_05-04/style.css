@@ -3,20 +3,17 @@
     justify-content: space-between;
     height: 70px;
     align-items: center;
-    background-color: bisque;
+    background-color: rgb(128, 128, 128, 0.6);
 }
 
 .child{
     display: flex;
     justify-content: center;
     height: 100%;
+    width: 30%;
     align-items: center;
 }
 
-/* .m-3{
-    margin: 2% 2% 2% 2%;
-}
-
 .child *{
-    margin: 4%;
-} */
+    margin-left: 5%;
+}

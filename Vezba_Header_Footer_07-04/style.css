@@ -1,0 +1,52 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 150px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    height: 60px;
+}
+
+i{
+    padding: 10px;
+    color: black;
+}
+
+i:hover{
+    border-radius: 50%;
+    background-color: rgb(128, 128, 128, 0.3);
+}
+
+.header-leftSide{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-rightSide{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.beige-color{
+    background-color: rgb(0, 128, 0, 0.2);
+}
+
+.w-100{
+    width: 100%;
+}
+
