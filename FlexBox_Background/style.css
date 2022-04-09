@@ -1,0 +1,32 @@
+.container{
+    background-color: beige;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.child{
+    width: 250px;
+    height: 150px;
+    background-image: url("../jaje.jpg");
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.child:nth-child(1){
+    background-color: red;
+}
+
+.child:nth-child(2){
+    background-color: green;
+}
+
+.child:nth-child(3){
+    background-color: blue;
+}
+
+.child:nth-child(4){
+    background-color: blueviolet;
+}
