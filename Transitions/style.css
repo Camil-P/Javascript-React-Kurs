@@ -1,0 +1,76 @@
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.child{
+    width: 150px;
+    height: 150px;
+    transition: all 3s;
+}
+
+.child:hover{
+    width: 250px;
+    height: 250px;
+}
+
+.ch{
+    width: 100px;
+    width: 100px;
+    height: 100px;
+    width: 100px;
+    height: 100px;
+    width: 100px;
+    height: 100px;
+    width: 100px;
+    height: 100px;
+    width: 100px;
+    height: 100px;
+    height: 100px;
+    transition: width 3s linear .3s, 
+        height 2s;
+}
+
+.ch:hover{
+    width: 300px;
+    height: 300px;
+}
+
+a{
+    font-size: smaller;
+    color: blue;
+    transition: all .9s;
+    transition-timing-function: linear;
+}
+
+a:visited{
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-weight: 700;
+    color: greenyellow;
+}
+
+a:active{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    transition: all .9s;
+    transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.bl-vio{
+    background-color: blueviolet;
+}

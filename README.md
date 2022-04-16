@@ -10,6 +10,7 @@ Zadaci za vezbu: https://www.hackerrank.com/
 
 Primeri za vezbu: https://tailblocks.cc/
                   https://mui.com/components/app-bar/
+                  https://jolly-kalam-23776e.netlify.app/restaurantwebsite/
 
 Igirca za flex: https://mastery.games/flexboxzombies/
 

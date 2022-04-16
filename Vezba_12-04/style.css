@@ -1,0 +1,153 @@
+body{
+    background-image: linear-gradient(145deg, cadetblue, darkslateblue);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    width: 95%;
+    margin: 2.5%;
+    margin-top: 1.5%;
+}
+
+header > h2{
+    text-align: center;
+    width: 235px;
+    padding: 15px .5%;
+    margin: 0;
+    margin-top:2%;
+}
+
+.bgc-goldenrod{
+    background-color: goldenrod;
+}
+
+.bgc-white{
+    background-color: white;
+}
+
+.column{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-b{
+    justify-content: space-between;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.margin-t{
+    margin-top: 40px;
+}
+
+.ad-container{
+    width: 28.5%;
+}
+
+.single-price{
+    height: 46%;
+}
+
+.price{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.food-name{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 0;
+}
+
+#mainAdImage{
+    position: relative;
+    height: 400px;
+    width: 68.5%;
+    background-image: url("https://slika.nezavisne.rs/2017/10/750x450/20171011120745_446701.jpg");
+    background-size: 100% 100%;
+}
+
+#mainAdImage > h1,#mainAdImage > h4{
+    display: inline-block;
+    position: absolute;
+    left: 7%;
+}
+
+#mainAdImage > h1{
+    top: 30%
+}
+
+#mainAdImage > h4{
+    top: 45%;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.single-service{
+    margin-top: 3.5%;
+    min-width: 90px;
+    max-width: 320px;
+    max-height: 200px;
+}
+
+.single-service > *{
+    text-align: center;
+}
+
+.single-service > p:nth-child(1){
+    font-size: 50px;
+    margin: 5%;
+}
+
+#featured-img{
+    min-width: 300px;
+    min-height: 300px;
+    margin: 2%;
+    background-image: url("https://image.shutterstock.com/image-photo/taco-cutout-on-white-background-260nw-180368483.jpg");
+    background-size: 100% 110%;
+}
+
+.featured-text > h2{
+    margin-top: 30%;
+}
+
+.separationLine-firstPart, .separationLine-secondPart{
+    height: 10px;
+    width: 43%;
+    margin-top: .8%;
+}
+
+.separationLine-firstPart{
+    background-image: linear-gradient(to left, goldenrod, rgb(218, 165, 32, 0));
+}
+
+.separationLine-secondPart{
+    background-image: linear-gradient(to left, rgb(218, 165, 32, 0), goldenrod);
+}
+
+#instant-grams{
+    margin: 0;
+}
+
+#gallery{
+}
+
+#gallery > img{
+    width: 200px;
+    height: 200px;
+    margin: 1%;
+}
