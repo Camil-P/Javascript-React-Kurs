@@ -1,0 +1,61 @@
+.container{
+    position: relative;
+    height: 500px;
+    width: 800px;
+    background-color: darkblue;
+}
+
+.example{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-color: crimson;
+    transition: transform .5s;
+}
+.example:hover{
+    transform: translateX(40%)
+        translateY(70%)
+        rotate(90deg);
+}
+
+.example2{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-color: crimson;
+    transition: transform 3s;
+}
+
+.example2:hover{
+    transform: translateX(40%)
+        translateY(70%)
+        rotate(90deg);
+}
+
+#check{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+#first, #second{
+    position: absolute;
+    top: 10%;
+    transition: all 2s;
+}
+
+#first{
+    left: -150px;
+}
+
+#second{
+    right: 0;
+}
+
+#check:hover + .first {
+    left: 150px
+}
+
+#check:hover + .second {
+    right: -150px;
+}
