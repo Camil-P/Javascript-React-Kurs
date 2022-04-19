@@ -1,0 +1,45 @@
+main{
+    height: 400px;
+    background-color: aqua;
+}
+
+a{
+    display: block;
+    text-align: center;
+}
+
+section{
+    height: 400px;
+    margin: 10px;
+    background-color: bisque;
+    border: 2px solid black;
+}
+
+/* Min-width je uslov ako krenemo od telefona prvo */
+/* @media screen and (min-width: 768px) {
+    a{
+        display: inline;
+    }
+
+    section{
+        background-color: brown;
+    }
+}
+
+/* Min-width je uslov ako krenemo od telefona prvo */
+/*@media screen and (max-width: 768px) {
+    a{
+        display: inline;
+    }
+
+    section{
+        background-color: brown;
+    }
+} */
+
+
+@media screen and (orientation: portrait){
+    section{
+        background-color: brown;
+    }
+}

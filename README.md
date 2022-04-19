@@ -11,6 +11,9 @@ Zadaci za vezbu: https://www.hackerrank.com/
 Primeri za vezbu: https://tailblocks.cc/
                   https://mui.com/components/app-bar/
                   https://jolly-kalam-23776e.netlify.app/restaurantwebsite/
+                  https://www.geeksforgeeks.org/top-10-projects-for-beginners-to-practice-html-and-css-skills/
+
+Primer za responzivan website: https://codepen.io/freeCodeCamp/full/zNBOYG
 
 Igirca za flex: https://mastery.games/flexboxzombies/
 
