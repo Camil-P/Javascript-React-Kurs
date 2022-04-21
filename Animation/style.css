@@ -1,0 +1,48 @@
+section{
+    width: 40%;
+    margin: 3%;
+    display: inline-block;
+    aspect-ratio: 2/1;
+    background-color: darkolivegreen;
+}
+section > div{
+    width: 25%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    font-size: 0;
+}
+
+.loptica1{
+    background-color: crimson;
+    transition: transform ease;
+    transition-duration: 2s;
+}
+
+.prviDiv:hover .loptica1{
+    transform: translateY(300%);
+}
+
+/* .loptica2{
+    animation: imeAnimacije 3s ease 1 forwards;
+} */
+
+.drugiDiv:hover .loptica2{
+    animation: imeAnimacije 3s ease 3;
+    animation-direction:normal;
+    animation-fill-mode: backwards;
+}
+
+@keyframes imeAnimacije {
+    0%{
+        transform: rotate(1500deg) scale(.3, .4) translate(65%, 65%);
+    }
+    30%{
+    }
+    70%{ 
+        transform: scale(1.3, 1) translate(150%, 150%);
+    }
+    100%{
+        transform: scale(1, 1.3) translate(300%, 300%);
+    }
+}
