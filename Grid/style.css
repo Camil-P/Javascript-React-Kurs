@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+
+main div{
+    background-color: cadetblue;
+    padding: 30px;
+    /* border: 3px solid white; */
+}
+
+main div:nth-child(even){
+    background-color: darkkhaki;
+}
+
+main{
+    max-width: 960px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4);
+    grid-auto-rows: 1fr;
+    gap: 6px
+}

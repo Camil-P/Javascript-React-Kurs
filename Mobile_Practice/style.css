@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    height: 90px;
+    width: 100%;
+    background-color: #be3144;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-buttons{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-buttons a{
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+}
+
+#about{
+    height: 100vh;
+    background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.7), rgb(0, 0, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about > h1{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 3px;
+}
+
+#about > p{
+    font-size: 25px;
+    color: #be3144;
+}
+
+/* WROK-GALLERY SECTION */
+
+#project-header{
+    margin:0;
+    padding: 15px;
+}
+
+#work-gallery{
+    background-color: cadetblue;
+}
+
+#work-gallery *{
+    color: white;
+}
+
+.card{
+    width: 370px;
+    margin: 0 auto 15px auto;
+    background-color: rgb(29, 50, 50);
+}
+
+.card > h2 {
+    margin: 0;
+    padding: 15px;
+}
+
+.card-image{
+    height: 300px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+#first > .card-image{
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg");
+}
+#second > .card-image{
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg");
+}
+#third > .card-image{
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg");
+}
+#fourth > .card-image{
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg");
+}
+#fifth > .card-image{
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg");
+}
+#sixth > .card-image{
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg");
+}
+
