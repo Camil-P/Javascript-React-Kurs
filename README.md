@@ -15,6 +15,8 @@ Primeri za vezbu: https://tailblocks.cc/
 
 Primer za responzivan website: https://codepen.io/freeCodeCamp/full/zNBOYG
 
+Vezba za test: https://jolly-kalam-23776e.netlify.app/styledconferences/
+
 Igirca za flex: https://mastery.games/flexboxzombies/
 
 Implementacija ikonica (unutar head tag-a): 
