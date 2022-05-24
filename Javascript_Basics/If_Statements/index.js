@@ -11,7 +11,8 @@ if(a >= b){
 }
 
 if(a < b){
-    console.log("Drugi (b) je veci");
+    console.log()
+    alert("a je manji od b");
 }
 
 if(aritmethicalOperand === "-"){
