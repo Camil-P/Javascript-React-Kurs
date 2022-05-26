@@ -1,11 +1,12 @@
 var a = prompt("Unesite variablu:");
 a = parseInt(a);
 
+// typeof ce da vrati string "number"
 console.log(typeof a);
 console.log(a);
 
-var nekiUslov = true;
-var treciUslov = false;
+var nekiUslov = true; // 1
+var treciUslov = false; // 0
 
 // Boolova algebra:
 // true && true && true || false = true
@@ -13,6 +14,27 @@ var treciUslov = false;
 
 var glavniUslov = typeof a === "number" 
                   && !isNaN(a);
+
+var isANumber = typeof a === "number" && !isNaN(a);
+
+if (isANumber && a%2 === 0){
+    console.log("Broj je paran.");
+}
+else if (isANumber && a%2 !== 0){
+    console.log("Broj je neparan.");
+}
+
+// BOlji nacin
+if(isANumber){
+
+    if(a%2 !== 0){
+        console.log("Broj je neparan.");
+    }
+    else{
+        console.log("Broj je paran.")
+    }
+
+}
 
 // Ako je ostatak pri deljenju jednak nuli broj je paran.
 //      true    i      true    i     true
