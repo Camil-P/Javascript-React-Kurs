@@ -1,19 +1,26 @@
 function doSomething(){
 
     // Uzimamo HTML elemente
-    var input = document.getElementById("in").value;
-    var displayPElement = document.getElementById("display");
-    var testInput = document.getElementById("test").value;
+    var firstNumber = document.getElementById("firstNumber").value;
+    var secondNumber = document.getElementById("secondNumber").value;
+    
+    var displayElement = document.getElementById("display");
 
-    // Unosimo vrednost iz inputa u drugi input
-    testInput = input;
+    if (firstNumber === secondNumber){
+        displayElement.innerHTML = "Elementi su jednaki";
+    }
+    else{
+        displayElement.innerHTML = "Elementi nisu jednaki";
+    }
 
-    // Ispisujemo vrednost HTML elementa
-    console.log(input.value);
+    // // Unosimo vrednost iz inputa u drugi input
+    // testInput = input;
 
-    // Prikaz u P element
-    displayPElement.innerHTML = input.value;
+    // // Ispisujemo vrednost HTML elementa
+    // console.log(input.value);
+
+    // // Prikaz u P element
+    // displayPElement.innerHTML = input.value;
 }
-
 
 
