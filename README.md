@@ -25,3 +25,5 @@ Implementacija ikonica (unutar head tag-a):
       rel="stylesheet">
 
 Ikonice: https://fonts.google.com/icons
+
+Matrice: https://www.w3resource.com/c-programming-exercises/array/index.php
