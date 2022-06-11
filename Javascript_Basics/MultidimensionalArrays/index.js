@@ -1,4 +1,4 @@
-function displayArray(){
+var displayArray = () => {
     const firstArray = document.getElementById("in1").value.split(',');
     const secondArray = document.getElementById("in2").value.split(',');
     const thirdArray = document.getElementById("in3").value.split(',');
@@ -13,12 +13,13 @@ function displayArray(){
     // console.log("Duzina child niza: ", multiArray[i].length)
     let row = "[";
     for (let i = 0; i < multiArray.length; i++) {
-        row += "\n";
+        row += "<br>";
         for (let j = 0; j < multiArray[i].length; j++) {
             row += multiArray[i][j] + " ";
         }
     }
-    console.log(row + "]");
+    row += "]";
+    document.getElementById("display").innerHTML = row;
 }
 
 
