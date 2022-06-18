@@ -1,0 +1,16 @@
+Unose dva niza i vrse se osnovne operacije nad svakim clanom niza
+
+1. Pravim input-e za dva niza
+2. Treba mi nacin da pokrenem operaciju (Kreiram button za svaku operaciju)
+3. Kreiramo funkcije za buttone
+4. Uzimamo input
+3. Input pretvaram u niz
+4. Svaki clan pretvaram u broj
+	a) Pravim For petlju
+	b) For petlja ide do kraja niza (i < niz.length)
+	c) indeksom uzimamo clanove niza (niz[i])
+	d) Svaki uzeti clan override-amo brojnim ekvivalentom ( niz[i] = parseInt(niz[i]) ) 
+
+5. Nakon pretvaranja u broj, iste te pretvorene clanove sabiramo
+6. Rezultate pojedinacnih operacija smestamo u novi niz 
+7. Nakon izvrsenih operacija nad svim clanovima, ispisujemo rezultate iz novo-kreiranog niza
