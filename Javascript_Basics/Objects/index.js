@@ -64,6 +64,7 @@
 
 const submit = () => {
     console.log("pozivam se");
+    
     const nekaOsoba = {
         name: document.getElementById("name").value,
         surname: document.getElementById("surname").value,

@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background-color: rgb(128, 128, 128, 0.6);
+}
+
+.child{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    align-items: center;
+}
+
+.child *{
+    margin-left: 5%;    
+}
+
+#mainDisplay{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 300px;
+    width: 500px;
+    background-color: grey;
+}
+
+img{
+    height: 65%;
+    width: 100%;
+}
+
+.card > div{
+    height: 35%;
+    width: 100%;
+}
+
+.category{
+    margin: 5px;
+}
+
+.description{
+    margin: 5px;
+}
